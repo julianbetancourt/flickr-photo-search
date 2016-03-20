@@ -1,0 +1,25 @@
+mixin tumb(source)
+  li.thumb-li
+    a(href="#")
+      img(src=source, alt="").thumb-img
+
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Flickr Search
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+    link(rel="stylesheet", href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+    link(rel="stylesheet", href="css/main.css")
+  body  
+    .form-container
+      form
+        .search-container
+          i.ion-ios-search-strong.icon
+          input(type="text", placeholder="Search", id="search")
+    .container
+      section.gallery-section
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")          
+    script(src="js/test.js")

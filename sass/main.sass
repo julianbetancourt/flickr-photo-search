@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700)
+
+/* --------------
+ GENERAL
+ ----------------
+*
+  box-sizing: border-box
+
+body
+  background-color: #222
+
+.container
+  width: 90%
+  margin: 0 auto
+  padding: 87px 0
+  overflow: auto
+
+/* -------------
+ SEARCH
+ ---------------
+
+.form-container
+  height: 89px
+  background: #222
+  position: fixed
+  width: 100%
+  form
+    width: 90%
+    padding: 20px 0
+    margin: 0 auto
+    .search-container
+      display: flex
+      width: 100%
+      .icon
+        display: inline-block
+        background: #ccc
+        padding: 15px
+        border-right: 1px solid #bbb
+        border-radius: 5px 0 0 5px
+      input
+        border: none
+        background-color: #ccc
+        width: 100%
+        padding: 5px
+        border-radius: 0 5px 5px 0
+        &:focus
+          outline: none
+
+/*--------------
+ THUMBNAIL
+ ---------------
+.gallery-list
+  list-style: none
+  margin: 0
+  padding: 0
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  li.thumb-li
+    margin: 10px
+    background: #1e1e1e
+    align-self: center
+    padding: 20px
+    max-height: 280px
+    border-radius: 5px
+    a.thumb-a
+      display: block
+      img.thumb-img
+        max-width: 100%
+
+/* -------------
+ DETAILS
+ ---------------
+#details
+  background: #1e1e1e
+  height: 100vh
+  width: 100%
+
+.details-title
+  display: flex
+  //border-bottom: 1px solid #121111
+  background: #222
+  padding: 0 25px 0 17px
+  justify-content: space-between
+  color: white
+  height: 89px
+  h1
+    font-family: 'Lora', sans-serif
+    margin: 10px 0
+    align-self: center
+  i
+    align-self: center
+    font-size: 33px
+
+.details-list.gallery-list
+  li
+    background: #222
+
+.info
+  display: flex
+  justify-content: space-between
+  padding: 10px 17px
+  background: #222
+  font-family: 'Lora', sans-serif
+  color: white
+  .author
+    align-self: center
+    i
+      margin-right: 10px
+  a
+    color: white
+    font-size: 22px
+
+.description
+  font-family: 'Lora', sans-serif
+  color: white
+  //text-align: center
+  padding: 14px 17px
+  margin: 10px 0
+  background: #222
